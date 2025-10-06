@@ -21,9 +21,10 @@ Assign column aliases using the AS keyword
 
 Use functions like SUM() and LOWER() in both SELECT and WHERE clauses
 
+---
 
 ### **Architecture**
-<p align="center"> <img src="architecture/database-lab-architecture.png" alt="Database Architecture" width="650"/> </p>
+<img width="1536" height="1024" alt="ed5c1026-12b8-4aa9-b71f-6a10db0ebb83" src="https://github.com/user-attachments/assets/d598006e-47ef-4802-b4ef-722809045c91" />
 
 Architecture Summary:
 
@@ -34,6 +35,8 @@ Amazon EC2 Command Host runs the MySQL client
 Amazon RDS MySQL hosts the world database
 
 SQL queries use conditional operators and functions to search and aggregate data
+
+---
 
 ### **Commands and Steps** 
 ```
@@ -81,22 +84,23 @@ FROM world.country
 WHERE Region LIKE "%North America%";
 ```
 
+---
+
 ## **Screenshots**
 
-1️⃣ 01_show_databases.png
-
+01_show_databases.png
+<img width="1100" height="501" alt="Screenshot 2025-10-06 054122" src="https://github.com/user-attachments/assets/3aaf294b-b7fe-4be6-a0de-3ecff949fcbd" />
 
 2️⃣ 02_between_operator.png
-
+<img width="1347" height="424" alt="Screenshot 2025-10-06 055754" src="https://github.com/user-attachments/assets/b3e16e49-6ce9-4099-9c6c-c7ccd75be485" />
 
 3️⃣ 03_like_operator.png
-
+<img width="1096" height="382" alt="Screenshot 2025-10-06 060255" src="https://github.com/user-attachments/assets/643262fe-2edd-4836-942d-93208ac495ef" />
 
 4️⃣ 04_sum_function_alias.png
+<img width="1546" height="216" alt="Screenshot 2025-10-06 060744" src="https://github.com/user-attachments/assets/3d3c536e-d5c4-4bc1-b8f5-13816f30f058" />
 
-
-5️⃣ 05_lower_function_challenge.png
-
+---
 
 ### **Tools Used**
 
@@ -108,6 +112,8 @@ AWS Systems Manager (Session Manager) – for secure, browser-based shell access
 
 MySQL Command Line Interface – for database operations
 
+---
+
 ### **Key Takeaways**
 
 Learned how to perform conditional searches with SQL operators (WHERE, AND, BETWEEN, LIKE).
@@ -118,10 +124,12 @@ Understood how column aliases (AS) make results easier to read.
 
 Strengthened understanding of query optimization and readability in cloud-based MySQL environments.
 
+---
+
 ### **Author**
 
 Amarachi Emeziem
 Cloud Security & IT Support Specialist | AWS & Azure Certified
 
-LinkedIn
+LinkedIn: https://www.linkedin.com/in/amarachilemeziem/
  
